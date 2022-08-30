@@ -12,5 +12,6 @@ namespace DataAccess.Entities
         public int User_ID { get; set; }
         [Required]
         public DateTime Date { get; set; }
+        public Reservations Reservation { get; set; }
     }
 }

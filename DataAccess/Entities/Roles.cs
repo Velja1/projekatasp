@@ -10,5 +10,7 @@ namespace DataAccess.Entities
         public int ID { get; set; }
         [Required]
         public int Name { get; set; }
+        public ICollection<Roles> PostComments { get; set; } = new List<Roles>();
+
     }
 }

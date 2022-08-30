@@ -10,7 +10,11 @@ namespace DataAccess.Context
     {
         public ProjectContext(DbContextOptions options) : base(options)
         {
-
+            
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-C3VBCB6;Initial Catalog=projekatasp;Integrated Security=True");
         }
 
         public DbSet<Types> Types { get; set; }

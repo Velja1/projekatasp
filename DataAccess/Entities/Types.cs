@@ -8,5 +8,6 @@ namespace DataAccess.Entities
     {
         public int ID { get; set; }
         public string Name { get; set; }
+        public ICollection<Vessels> PostComments { get; set; } = new List<Vessels>();
     }
 }

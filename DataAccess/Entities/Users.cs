@@ -16,5 +16,7 @@ namespace DataAccess.Entities
         public string Password { get; set; }
         [Required]
         public string RoleID { get; set; }
+        public ICollection<Reservations> PostComments { get; set; } = new List<Reservations>();
+        public Roles Role { get; set; }
     }
 }
