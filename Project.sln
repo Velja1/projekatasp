@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{5A20DBA9-E317-4A62-8633-66A7983701DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "DataAccess\Domain.csproj", "{5E064B1C-00EC-4AC5-9541-C9442B4FE8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessLogic", "BussinessLogic\BussinessLogic.csproj", "{1B38E528-0680-43C2-A0D4-2EF5FA692858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A20DBA9-E317-4A62-8633-66A7983701DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A20DBA9-E317-4A62-8633-66A7983701DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A20DBA9-E317-4A62-8633-66A7983701DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A20DBA9-E317-4A62-8633-66A7983701DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E064B1C-00EC-4AC5-9541-C9442B4FE8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E064B1C-00EC-4AC5-9541-C9442B4FE8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E064B1C-00EC-4AC5-9541-C9442B4FE8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E064B1C-00EC-4AC5-9541-C9442B4FE8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B38E528-0680-43C2-A0D4-2EF5FA692858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B38E528-0680-43C2-A0D4-2EF5FA692858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B38E528-0680-43C2-A0D4-2EF5FA692858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B38E528-0680-43C2-A0D4-2EF5FA692858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04AA6030-0ED9-4914-A6E9-D9FE5C690305}
+	EndGlobalSection
+EndGlobal
